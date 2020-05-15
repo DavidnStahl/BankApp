@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\dns20\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dns20\\.nuget\\packages"
+    ]
+  }
+}

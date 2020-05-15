@@ -1,0 +1,86 @@
+﻿@model BankApp.ViewModels.PagingViewModel
+
+
+@{
+    int p = 1;
+}
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+
+        @if (Model.ShowPrevButton)
+        {
+
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous" onclick="window.location.href=updateQueryStringParameter(window.location.href,'page', '@(Model.CurrentPage-1)',document.getElementById('searchtext').value)">
+                    <span aria-hidden="true">Prev</span>
+                </a>
+            </li>
+        }
+
+        @foreach (var page in Model.GetPages)
+        {
+            if (page == "...")
+            {
+                <li class="page-item disabled">...</li>
+            }
+            else
+            {
+                p = Convert.ToInt32(page);
+                <li class="page-item  @(Model.CurrentPage == p ? "active" : "")"><a class="page-link" href="#" onclick="window.location.href=updateQueryStringParameter(window.location.href,'page', '@p',document.getElementById('searchtext').value)">@p</a></li>
+            }
+
+        }
+
+        @if (Model.ShowNextButton)
+        {
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next" onclick="window.location.href=updateQueryStringParameter(window.location.href,'page', '@(Model.CurrentPage+1)',document.getElementById('searchtext').value)">
+                    <span aria-hidden="true">Next</span>
+                </a>
+            </li>
+        }
+    </ul>
+</nav>
+
+
+
+<script>
+
+    var input = document.getElementById("searchtext");
+
+    function updateQueryStringParameter(uri, key, value, searchWord) {
+        if (searchWord === "undefined") {
+            searchWord = document.getElementById("searchtext").value;
+        }
+        var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+        var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+
+        
+       
+         if (uri.match(re)) {
+                var newuri = uri.split("&searchWord=")
+                return newuri[0].replace(re, '$1' + key + "=" + value + "&" + "searchWord" + "=" + searchWord);
+          }
+          else {
+                var newuri = uri.split("&searchWord=")
+                return newuri[0] + separator + key + "=" + value + "&" + "searchWord" + "=" + searchWord;
+         }
+    }
+
+
+    $("#pageSize").on("change", function () {
+        var newVal = $("#pageSize").val();
+        var searchWord = document.getElementById("searchtext").value;
+        console.log(searchWord);
+        
+        window.location.href = updateQueryStringParameter(window.location.href, 'pageSize', newVal,searchWord);
+    });
+    function setSorts(url, col, o) {
+        var searchWord = document.getElementById("searchtext").value;
+        console.log(searchWord);
+
+        var s = updateQueryStringParameter(url, 'sortcolumn', col, searchWord);
+        s = updateQueryStringParameter(s, 'sortorder', o, searchWord);
+        return s;
+    }
+</script>

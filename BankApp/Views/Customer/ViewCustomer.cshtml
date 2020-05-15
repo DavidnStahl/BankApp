@@ -1,0 +1,216 @@
+﻿@model BankApp.ViewModels.Customers.CustomerAccountInformationViewModel
+
+@{
+    var i = 0;
+
+}
+    <div class="container">
+        <div class="row">
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-6 col-md-5 mb-4 text-center">
+                <div class="card border-left-primary shadow h-100 py-2">
+                    <div class="card-body text-primary">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-auto">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xl-center font-weight-bold text-primary text-uppercase mb-1">Customer Information</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="customerId" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.CustomerId)</label>
+                                        <div class="col-lg-4">
+                                            <input type="text" readonly class="form-control-plaintext" id="customerId" value="@Model.CustomerId">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="gender" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Gender)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="gender" value="@Model.Gender">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="givenname" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Givenname)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="givenname" value="@Model.Givenname">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="surname" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Surname)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="surname" value="@Model.Surname">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="nationalid" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.NationalId)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="nationalid" value="@Model.NationalId">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="birthday" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Birthday)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="birthday" value="@Model.Birthday">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="streetaddress" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Streetaddress)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="streetaddress" value="@Model.Streetaddress">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="zipcode" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Zipcode)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="zipcode" value="@Model.Zipcode">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="city" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.City)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="city" value="@Model.City">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="country" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Country)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="country" value="@Model.Country">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="countrycode" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.CountryCode)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="countrycode" value="@Model.CountryCode">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="telephonecountrycode" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Telephonecountrycode)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="telephonecountrycode" value="@Model.Telephonecountrycode">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="telephonenumber" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Telephonenumber)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="telephonenumber" value="@Model.Telephonenumber">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="emailaddress" class="col-lg-4 col-form-label">@Html.LabelFor(model => model.Emailaddress)</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" readonly class="form-control-plaintext" id="emailaddress" value="@Model.Emailaddress">
+                                        </div>
+                                    </div>
+
+                                </form>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--LeftCard-->
+
+    <div class="col-xl-12 col-md-5 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body text-primary">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-auto">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xl-center font-weight-bold text-primary text-uppercase mb-1">Account Information</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                        <br />
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th scope="auto">Account Id</th>
+                                            <th scope="auto">Created</th>
+                                            <th scope="auto">Account Type</th>
+                                            <th scope="auto">Balance</th>
+                                            @if (Model.Items.Count > 1)
+                                            {
+                                                <th scope="auto">Total Balance</th>
+                                            }
+
+                                            <th scope="auto"></th>
+                                            <th scope="auto"></th>
+                                            <th scope="auto"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var account in Model.Items)
+                                        {
+                                            i++;
+                                            if (i != Model.Items.Count)
+                                            {
+                                        <tr>
+                                            <td><a asp-action="ViewTransactions" asp-controller="Customer" asp-route-id="@account.AccountId" asp-route-customerId="@Model.CustomerId">@account.AccountId</a></td>
+                                            <td>@account.Created</td>
+                                            <td>@account.Type</td>
+                                            <td>@account.Balance.ToString("C2")</td>
+                                            <td></td>
+                                            <td><a asp-action="Withdraw" asp-controller="Transaction" asp-route-accountId="@account.AccountId" asp-route-customerId="@Model.CustomerId">Withdraw</a></td>
+                                            <td><a asp-action="Deposit" asp-controller="Transaction" asp-route-accountId="@account.AccountId" asp-route-customerId="@Model.CustomerId">Deposit</a></td>                                            
+                                            <td><a asp-action="Transfer" asp-controller="Transaction" asp-route-accountId="@account.AccountId" asp-route-customerId="@Model.CustomerId" >Transfer to account</a></td>
+                                            
+
+                                            
+                                            
+                                        </tr>
+                                            }
+                                            else
+                                            {
+                                    <tr>
+                                        <td><a asp-action="ViewTransactions" asp-controller="Customer" asp-route-id="@account.AccountId" asp-route-customerId="@Model.CustomerId">@account.AccountId</a></td>
+                                        <td>@account.Created</td>
+                                        <td>@account.Type</td>
+                                        <td>@account.Balance.ToString("C2")</td>
+                                        @if (Model.Items.Count > 1)
+                                        {
+                                            <td>@Model.TotalBalance.ToString("C2")</td>
+                                        }
+
+                                        <td><a asp-action="Withdraw" asp-controller="Transaction" asp-route-accountId="@account.AccountId" asp-route-customerId="@Model.CustomerId">Withdraw</a></td>
+                                        <td><a asp-action="Deposit" asp-controller="Transaction" asp-route-accountId="@account.AccountId" asp-route-customerId="@Model.CustomerId">Deposit</a></td>
+                                        <td><a asp-action="Transfer" asp-controller="Transaction" asp-route-accountId="@account.AccountId" asp-route-customerId="@Model.CustomerId">Transfer to account</a></td>
+                                    </tr>
+                                            }
+
+
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+

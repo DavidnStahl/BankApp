@@ -1,0 +1,12 @@
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\bin\Release\netcoreapp3.1\ClassLibrary.deps.json
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\bin\Release\netcoreapp3.1\ClassLibrary.runtimeconfig.json
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\bin\Release\netcoreapp3.1\ClassLibrary.runtimeconfig.dev.json
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\bin\Release\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\bin\Release\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\obj\Release\netcoreapp3.1\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\obj\Release\netcoreapp3.1\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\obj\Release\netcoreapp3.1\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\obj\Release\netcoreapp3.1\ClassLibrary.AssemblyInfo.cs
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\obj\Release\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\obj\Release\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\Source\Repos\BankApp2\BankApp\ClassLibrary\obj\Release\netcoreapp3.1\ClassLibrary.genruntimeconfig.cache

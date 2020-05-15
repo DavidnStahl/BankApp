@@ -1,0 +1,47 @@
+﻿@model BankApp.ViewModels.Transactions.TransactionTransferToAccountViewModel
+
+<div class="col-xl-5 col-md-5 mb-4">
+    <div class="card border-left-primary shadow h-100 py-2">
+        <div class="card-body text-primary">
+            <div class="row no-gutters align-items-center">
+                <div class="col mr-auto">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xl-center font-weight-bold text-primary text-uppercase mb-1">Transer</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                    <br />
+
+                    <form asp-controller="Transaction" asp-action="Transfer" method="post">
+
+                        <div class="form-group">
+                            <label>AccountId: @Model.AccountId</label><br />
+                            <label>Balance: @Model.Balance.ToString("C2")</label><br /><br />
+                            <input hidden asp-for="@Model.CustomerId" />
+                            <input hidden asp-for="@Model.AccountId" />
+                            <input hidden asp-for="@Model.Balance" />
+
+                            <input type="number" class="form-control" asp-for="@Model.TransferAmount" id="addto" aria-describedby="emailHelp" placeholder="Enter amount...">
+                            <span class="text-danger" asp-validation-for="@Model.TransferAmount"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Specify AccountId to transfer to</label><br />
+                            <input type="number" class="form-control" asp-for="@Model.AccountIdSendTo" id="addto" aria-describedby="emailHelp" placeholder="Enter amount...">
+                            <span class="text-danger" asp-validation-for="@Model.AccountIdSendTo"></span>
+                        </div>
+                        <div class="form-group">
+
+                            <input type="submit" class="btn btn-primary" value="Transfer" />
+                        </div>
+
+                    </form>
+                    <a class="btn btn-dark" asp-action="ViewCustomer" asp-controller="Customer" asp-route-id="@Model.CustomerId">Return</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

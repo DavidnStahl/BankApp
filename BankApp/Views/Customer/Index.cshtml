@@ -1,0 +1,96 @@
+﻿@model BankApp.ViewModels.Customers.CustomerListViewModel
+@{
+
+
+    string GetClickSortOrder(string columnName)
+    {
+        if (columnName == Model.SortColumn)
+        {
+            string o = "asc";
+            if (Model.SortOrder == "asc")
+            {
+                o = "desc";
+            }
+            return o;
+        }
+        else
+        {
+            return "asc";
+        }
+    }
+
+    void RenderSortIcon(string columnName)
+    {
+        if (columnName != Model.SortColumn)
+        {
+            return;
+        }
+    <i class="fa fa-sort-@Model.SortOrder"></i>
+    }
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Customers</h1>
+    <p class="mb-4">Search for a customer with name or city</p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            
+                <div class="input-group">
+
+                    <input id="searchtext" value="@Model.SearchWord" type="text" class="form-control bg-white border-0 small" placeholder="Search here ..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button id="buttonsubmit"class="btn btn-primary" onclick="window.location.href=setSorts(window.location.href, 'CustomerId', '@GetClickSortOrder("CustomerId")')">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+
+                            <th scope="col"><a onclick="window.location.href=setSorts(window.location.href, 'CustomerId', '@GetClickSortOrder("CustomerId")')">CustomerId @{ RenderSortIcon("CustomerId");}</a></th>
+                            <th scope="col"><a onclick="window.location.href=setSorts(window.location.href, 'NationalId', '@GetClickSortOrder("NationalId")')">NationalId @{ RenderSortIcon("NationalId");}</a></th>
+                            <th scope="col"><a onclick="window.location.href=setSorts(window.location.href, 'Name', '@GetClickSortOrder("Name")')">Name @{ RenderSortIcon("Name");}</a></th>
+                            <th scope="col"><a onclick="window.location.href=setSorts(window.location.href, 'Address', '@GetClickSortOrder("Address")',)">Address @{ RenderSortIcon("Address");}</a></th>
+                            <th scope="col"><a onclick="window.location.href=setSorts(window.location.href, 'City', '@GetClickSortOrder("City")',)">City @{ RenderSortIcon("City");}</a></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var customer in Model.Items)
+                        {
+                        <tr>
+                            <td>@customer.CustomerId</td>
+                            <td>@customer.NationalId</td>
+                            <td>@customer.Name</td>
+                            <td>@customer.Address</td>
+                            <td>@customer.City</td>
+                            <td><a asp-action="ViewCustomer" asp-controller="Customer" asp-route-id="@customer.CustomerId">View Customer</a></td>
+                            <td><a asp-action="UpdateCustomer" asp-controller="Customer" asp-route-id="@customer.CustomerId">Update Customer</a></td>
+                        </tr>
+                        }
+
+                    </tbody>
+                </table>
+                @Html.Partial("_PagerBootstrap", Model.PagingViewModel)
+            </div>
+        </div>
+        
+        
+    </div>
+
+</div>
+
+
+
+

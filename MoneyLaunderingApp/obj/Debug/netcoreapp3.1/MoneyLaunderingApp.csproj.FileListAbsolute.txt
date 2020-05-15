@@ -1,0 +1,288 @@
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.exe
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.deps.json
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.runtimeconfig.json
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.runtimeconfig.dev.json
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csprojAssemblyReference.cache
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.AssemblyInfoInputs.cache
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.AssemblyInfo.cs
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.genruntimeconfig.cache
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csproj.CopyComplete
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.EntityFramework.Extensions.EFCore.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.EntityFramework.Plus.EFCore.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.Expressions.Eval.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csproj.CoreCompileInputs.cache
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.exe
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.deps.json
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.runtimeconfig.json
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.runtimeconfig.dev.json
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.EntityFramework.Extensions.EFCore.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.EntityFramework.Plus.EFCore.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.Expressions.Eval.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csprojAssemblyReference.cache
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csproj.CoreCompileInputs.cache
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.AssemblyInfoInputs.cache
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.AssemblyInfo.cs
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csproj.CopyComplete
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
+C:\Users\dns20\source\repos\BankApp2\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.genruntimeconfig.cache
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.exe
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.deps.json
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.runtimeconfig.json
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.runtimeconfig.dev.json
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.EntityFramework.Extensions.EFCore.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.EntityFramework.Plus.EFCore.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.Expressions.Eval.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csprojAssemblyReference.cache
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csproj.CoreCompileInputs.cache
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.AssemblyInfoInputs.cache
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.AssemblyInfo.cs
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csproj.CopyComplete
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
+C:\Users\dns20\Downloads\BankApp\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.genruntimeconfig.cache
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.exe
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.deps.json
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.runtimeconfig.json
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.runtimeconfig.dev.json
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.EntityFramework.Extensions.EFCore.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.EntityFramework.Plus.EFCore.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\Z.Expressions.Eval.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csprojAssemblyReference.cache
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csproj.CoreCompileInputs.cache
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.AssemblyInfoInputs.cache
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.AssemblyInfo.cs
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.csproj.CopyComplete
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.genruntimeconfig.cache

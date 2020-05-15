@@ -1,0 +1,48 @@
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.deps.json
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfo.cs
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.runtimeconfig.json
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.runtimeconfig.dev.json
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.genruntimeconfig.cache
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\source\repos\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.deps.json
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.runtimeconfig.json
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.runtimeconfig.dev.json
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfo.cs
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\source\repos\BankApp2\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.genruntimeconfig.cache
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.deps.json
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.runtimeconfig.json
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.runtimeconfig.dev.json
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfo.cs
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\Downloads\BankApp\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.genruntimeconfig.cache
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.deps.json
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.runtimeconfig.json
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.runtimeconfig.dev.json
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfo.cs
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\dns20\Downloads\BankAppMVC2VG-master (1)\BankAppMVC2VG-master\BankApp\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.genruntimeconfig.cache

@@ -1,0 +1,83 @@
+﻿@model BankApp.ViewModels.Accounts.AccountInformationViewModel
+
+@{
+    int p = 1;
+
+    Layout = null;
+
+}
+
+<div class="card-body">
+    <div class="table-responsive">
+        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>TransactionId</th>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Operation</th>
+                    <th>Amount</th>
+                    <th>Balance</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaction in Model.Items)
+                {
+                    <tr>
+                        <td>@transaction.TransactionId</td>
+                        <td>@transaction.Date</td>
+                        <td>@transaction.Type</td>
+                        <td>@transaction.Operation</td>
+                        <td>@transaction.Amount.ToString("C2")</td>
+                        <td>@transaction.Balance.ToString("C2")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@{
+
+}
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+
+        @if (Model.PagingViewModel.ShowPrevButton)
+        {
+
+            <li class="page-item">
+
+                <a type="button" class="page-link" style="width:auto" asp-action="MoreTransactions" asp-controller="Customer" asp-route-page="@(Model.PagingViewModel.CurrentPage-1)" asp-route-id="@Model.AccountId" asp-route-customerId="@Model.CustomerId"
+                   data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#partialview"><span aria-hidden="true">Prev</span></a>
+            </li>
+
+        }
+
+        @foreach (var page in Model.PagingViewModel.GetPages)
+        {
+            if (page == "...")
+            {
+                <li class="page-item disabled">...</li>
+            }
+            else
+            {
+                p = Convert.ToInt32(page);
+                <li class="page-item  @(Model.PagingViewModel.CurrentPage == p ? "active" : "")">
+                    <a type="button" class="page-link" style="width:auto" asp-action="MoreTransactions" asp-controller="Customer" asp-route-page="@p" asp-route-id="@Model.AccountId" asp-route-customerId="@Model.CustomerId"
+                       data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#partialview">@p</a>
+                </li>
+            }
+
+        }
+
+        @if (Model.PagingViewModel.ShowNextButton)
+        {
+            <li class="page-item">
+                <a type="button" class="page-link" style="width:auto" asp-action="MoreTransactions" asp-controller="Customer" asp-route-page="@(Model.PagingViewModel.CurrentPage+1)" asp-route-id="@Model.AccountId" asp-route-customerId="@Model.CustomerId"
+                   data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#partialview"><span aria-hidden="true">Next</span></a>
+
+            </li>
+        }
+    </ul>
+</nav>

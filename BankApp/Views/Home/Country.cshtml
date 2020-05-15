@@ -1,0 +1,50 @@
+﻿@model List<BankApp.ViewModels.Accounts.TopCustomerAccountInformationInCountryViewModel>
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+
+
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+
+            <h3>Top 10 Customers in @Model[0].Country</h3>
+
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th scope="col">Customer Id</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Street Address</th>
+                            <th scope="col">City</th>
+                            <th scope="col">Balance</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var customer in Model)
+                        {
+                            <tr>
+                                <td>@customer.CustomerId</td>
+                                <td>@customer.Name</td>
+                                <td>@customer.StreetAddress</td>
+                                <td>@customer.City</td>
+                                <td>@customer.Balance</td>
+                                
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
