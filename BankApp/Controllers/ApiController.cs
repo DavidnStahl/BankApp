@@ -15,7 +15,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 namespace BankApp.Controllers
 {
     
-    [BasicAuthenticationAttribute]
+    [BasicAuthentication]
     public class ApiController : Controller
     {
         private readonly ICustomerService _service;
@@ -24,6 +24,7 @@ namespace BankApp.Controllers
         {
             _service = customerService;
         }
+
         // GET: api/<controller>
         [HttpGet]
         [Route("api/me")]
