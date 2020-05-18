@@ -29,7 +29,7 @@ namespace BankApp.Controllers
 
         [HttpGet]
         [Route("api/me")]
-        public ActionResult Get()
+        public IActionResult Get()
         {          
             var data = _service.GetAuthenticatedUser(Request);
             return Ok(data);
@@ -37,7 +37,7 @@ namespace BankApp.Controllers
 
         [Route("api/account/{id}")]
         [HttpGet]
-        public ActionResult Get(int id, int offset,int limit)
+        public IActionResult Get(int id, int offset,int limit)
         {
             var data = _service.GetTransactions(Request,id, offset, limit);
             if (data == null) return NotFound();
