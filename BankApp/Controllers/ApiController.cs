@@ -16,7 +16,8 @@ namespace BankApp.Controllers
 {
     
     [BasicAuthentication]
-    public class ApiController : Controller
+    [ApiController]
+    public class ApiController : ControllerBase
     {
         private readonly ICustomerService _service;
 
@@ -25,21 +26,22 @@ namespace BankApp.Controllers
             _service = customerService;
         }
 
-        // GET: api/<controller>
+
         [HttpGet]
         [Route("api/me")]
-        public JsonResult Get()
+        public ActionResult Get()
         {          
             var data = _service.GetAuthenticatedUser(Request);
-            return Json(data);
+            return Ok(data);
         }
-        // GET api/<controller>/5
+
         [Route("api/account/{id}")]
         [HttpGet]
-        public JsonResult Get(int id, int offset,int limit)
+        public ActionResult Get(int id, int offset,int limit)
         {
             var data = _service.GetTransactions(Request,id, offset, limit);
-            return Json(data);
+            if (data == null) return NotFound();
+            return Ok(data);
         }
 
     }
