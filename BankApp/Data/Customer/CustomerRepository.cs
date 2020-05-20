@@ -168,7 +168,20 @@ namespace BankApp.Data.Customer
             _context.Accounts.Add(account);
             _context.Dispositions.Add(disposion);
             _context.SaveChanges();
-            _searchEngine.RunAndUpdateSearchEngine();
+            _context.Entry(customer).GetDatabaseValues();
+
+            var customers = new List<SearchCustomer>();
+            var cust = new SearchCustomer
+            {
+                Id = customer.CustomerId.ToString(),
+                CustomerId = customer.CustomerId,
+                Address = customer.Streetaddress,
+                City = customer.City,
+                Name = customer.Givenname + " " + model.Surname,
+                NationalId = customer.NationalId
+            };
+            customers.Add(cust);
+            _searchEngine.UpdateCustomerSearchEngine(customers);
         }
 
         public void UpdateCustomer(UpdateCustomerViewModel model)
