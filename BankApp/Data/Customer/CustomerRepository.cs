@@ -3,6 +3,7 @@ using BankApp.ViewModels.Customers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using SearchApp;
 using SearchApp.Repository;
 using System;
 using System.Collections.Generic;
@@ -23,100 +24,60 @@ namespace BankApp.Data.Customer
             _searchEngine = searchEngine;
         }
         
-        private IEnumerable<CustomerListViewModel.CustomerItemViewModel> AddSorting(IEnumerable<CustomerListViewModel.CustomerItemViewModel> items, ref string sortcolumn, ref string sortorder)
+        private IEnumerable<CustomerListViewModel.CustomerItemViewModel> GetCustomersBySearchWord(string searchWord,
+            int skip, string column, string orderby)
+        {
+            if(searchWord == "undefined")
+            {
+                searchWord = "";
+               var nothingsearched = _context.Customers.Select(c => new CustomerListViewModel.CustomerItemViewModel
+                {
+                    CustomerId = c.CustomerId,
+                    NationalId = c.NationalId,
+                    Address = c.Streetaddress,
+                    City = c.City,
+                    Name = c.Givenname + " " + c.Surname
+                }).AsEnumerable();
+
+                return nothingsearched;
+            }
+            
+            var searchedCustomerResult = _searchEngine.RunSearchEngine(searchWord,skip,column,orderby).Results
+                .Select(r => Convert.ToInt32(r.Document.CustomerId))
+                .SelectMany(s => _context.Customers
+                .Where(c => c.CustomerId == s)).Select(c => new CustomerListViewModel.CustomerItemViewModel
+                {
+                    CustomerId = c.CustomerId,
+                    NationalId = c.NationalId,
+                    Address = c.Streetaddress,
+                    City = c.City,
+                    Name = c.Givenname + " " + c.Surname
+                });
+
+            return searchedCustomerResult;
+        }
+        public CustomerListViewModel GetAllCustomers(string sortcolumn, string sortorder, string page, string searchWord)
         {
             if (string.IsNullOrEmpty(sortcolumn))
                 sortcolumn = "CustomerId";
             if (string.IsNullOrEmpty(sortorder))
                 sortorder = "asc";
 
-            if (sortcolumn == "Name")
-            {
-                if (sortorder == "asc")
-                    items = items.OrderBy(p => p.Name);
-                else
-                    items = items.OrderByDescending(p => p.Name);
-            }
-            else if (sortcolumn == "CustomerId")
-            {
-                if (sortorder == "asc")
-                    items = items.OrderBy(p => p.CustomerId);
-                else
-                    items = items.OrderByDescending(p => p.CustomerId);
-            }
-            else if (sortcolumn == "Address")
-            {
-                if (sortorder == "asc")
-                    items = items.OrderBy(p => p.Address);
-                else
-                    items = items.OrderByDescending(p => p.Address);
-            }
-            else if (sortcolumn == "City")
-            {
-                if (sortorder == "asc")
-                    items = items.OrderBy(p => p.City);
-                else
-                    items = items.OrderByDescending(p => p.City);
-            }
-            else
-            {
-                if (sortorder == "desc")
-                    items = items.OrderBy(p => p.NationalId);
-                else
-                    items = items.OrderByDescending(p => p.NationalId);
-
-                sortcolumn = "NationalId";
-            }
-
-            return items;
-        }
-
-        private IEnumerable<CustomerListViewModel.CustomerItemViewModel> GetCustomersBySearchWord(string searchWord)
-        {
-            if(searchWord == "undefined")
-            {
-                searchWord = "";
-            }
-            var x =  _searchEngine.RunSearchEngine(searchWord).Results.Select(r => new CustomerListViewModel.CustomerItemViewModel
-            {
-                CustomerId = Convert.ToInt32(r.Document.CustomerId),
-                NationalId = r.Document.NationalId,
-                Address = r.Document.Address,
-                City = r.Document.City,
-                Name = r.Document.Name
-
-            });
-            return x;
-        }
-        public CustomerListViewModel GetAllCustomers(string sortcolumn, string sortorder, string page, string searchWord)
-        {
-            var items = GetCustomersBySearchWord(searchWord);
-
-            if (string.IsNullOrEmpty(sortorder))
-                sortorder = "asc";
-
-            items = AddSorting(items, ref sortcolumn, ref sortorder);
-            return Paging(items,sortcolumn,sortorder,page,searchWord);
-
-        }
-
-        private CustomerListViewModel Paging(IEnumerable<CustomerListViewModel.CustomerItemViewModel> items,string sortcolumn, string sortorder, string page, string searchWord)
-        {
+            int currentPage = string.IsNullOrEmpty(page) ? 1 : Convert.ToInt32(page);
+            var skip = (Convert.ToInt32(currentPage) * 50) - 50;
+            var items = GetCustomersBySearchWord(searchWord,skip,sortcolumn,sortorder);
             var customerListViewModel = new CustomerListViewModel();
             customerListViewModel.PagingViewModel.PageSize = 50;
-            int currentPage = string.IsNullOrEmpty(page) ? 1 : Convert.ToInt32(page);
-            var pageCount = (double)items.Count() / customerListViewModel.PagingViewModel.PageSize;
+            var pageCount = Convert.ToDecimal(_searchEngine.RunSearchEngine(searchWord, skip, sortcolumn, sortorder).Count.Value) / customerListViewModel.PagingViewModel.PageSize;
             customerListViewModel.PagingViewModel.MaxPages = (int)Math.Ceiling(pageCount);
-            items = items.Skip((currentPage - 1) * customerListViewModel.PagingViewModel.PageSize).Take(customerListViewModel.PagingViewModel.PageSize);
             customerListViewModel.PagingViewModel.CurrentPage = currentPage;
             customerListViewModel.Items = items.ToList();
             customerListViewModel.SortColumn = sortcolumn;
             customerListViewModel.SortOrder = sortorder;
-            customerListViewModel.SearchWord = searchWord == "undefined"? "" : searchWord;
-            
+            customerListViewModel.SearchWord = searchWord == "undefined" ? "" : searchWord;
+
             return customerListViewModel;
         }
-        
         public CustomerAccountInformationViewModel GetCustomerById(int id)
         {
             var customer = _context.Customers.Include(customer => customer.Dispositions)
@@ -229,7 +190,19 @@ namespace BankApp.Data.Customer
             customer.Zipcode = model.Zipcode;
             _context.Customers.Update(customer);
             _context.SaveChanges();
-            _searchEngine.RunAndUpdateSearchEngine();
+
+            var customers = new List<SearchCustomer>();
+            var cust = new SearchCustomer
+            {
+                Id = model.CustomerId.ToString(),
+                CustomerId = model.CustomerId,
+                Address = model.Streetaddress,
+                City = model.City,
+                Name = model.Givenname + " " + model.Surname,
+                NationalId = model.NationalId
+            };
+            customers.Add(cust);
+            _searchEngine.UpdateCustomerSearchEngine(customers);
         }
 
         public UpdateCustomerViewModel GetCustomerByIdToUpdateInformation(int id)

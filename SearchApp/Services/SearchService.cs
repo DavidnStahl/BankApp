@@ -31,11 +31,21 @@ namespace SearchApp.Repository
             IConfigurationRoot configuration = builder.Build();
             SearchServiceClient serviceClient = CreateSearchServiceClient(configuration);
             string indexName = configuration["SearchIndexName"];
+            ISearchIndexClient indexClient = serviceClient.Indexes.GetClient(indexName);
+           
             DeleteIndexIfExists(indexName, serviceClient);
             CreateIndex(indexName, serviceClient);
-            ISearchIndexClient indexClient = serviceClient.Indexes.GetClient(indexName);
             UploadDocuments(indexClient);
-            
+        }
+        public void UpdateCustomerSearchEngine(List<SearchCustomer> customers)
+        {
+            IConfigurationBuilder builder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
+            IConfigurationRoot configuration = builder.Build();
+            SearchServiceClient serviceClient = CreateSearchServiceClient(configuration);
+            string indexName = configuration["SearchIndexName"];
+            ISearchIndexClient indexClient = serviceClient.Indexes.GetClient(indexName);
+            UpdateDocuments(indexClient, customers);
+
         }
 
         private void DeleteIndexIfExists(string indexName, SearchServiceClient serviceClient)
@@ -61,7 +71,7 @@ namespace SearchApp.Repository
             SearchServiceClient serviceClient = new SearchServiceClient(searchServiceName, new SearchCredentials(adminApiKey));
             return serviceClient;
         }
-        public DocumentSearchResult<SearchCustomer> RunSearchEngine(string searchWord)
+        public DocumentSearchResult<SearchCustomer> RunSearchEngine(string searchWord, int skip, string column, string orderby)
         {
             IConfigurationBuilder builder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
             IConfigurationRoot configuration = builder.Build();
@@ -69,16 +79,19 @@ namespace SearchApp.Repository
             string indexName = configuration["SearchIndexName"];
             ISearchIndexClient indexClient = serviceClient.Indexes.GetClient(indexName);
             ISearchIndexClient indexClientForQueries = CreateSearchIndexClient(indexName, configuration);
-            return RunQueries(indexClientForQueries, searchWord);
+            return RunQueries(indexClientForQueries, searchWord,skip,column,orderby);
         }
-        private DocumentSearchResult<SearchCustomer> RunQueries(ISearchIndexClient indexClient, string searchWord)
+        private DocumentSearchResult<SearchCustomer> RunQueries(ISearchIndexClient indexClient, string searchWord,int skip, string column, string orderby)
         {
+            
             SearchParameters parameters =
             new SearchParameters()
             {
-                Select = new[] { "CustomerId","NationalId","Name","Address","City" },
-                Top = 6000
-                
+                Select = new[] { "CustomerId"},
+                IncludeTotalResultCount = true,
+                Skip = skip,
+                Top = 50,
+                OrderBy = new [] {$"{column} {orderby}"}
             };
 
             return indexClient.Documents.Search<SearchCustomer>(searchWord, parameters);
@@ -89,7 +102,8 @@ namespace SearchApp.Repository
             BankAppDataContext context = new BankAppDataContext();
             var searchCustomer = context.Customers.Select(c => new SearchCustomer
             {
-                CustomerId = c.CustomerId.ToString(),
+                CustomerId = c.CustomerId,
+                Id = c.CustomerId.ToString(),
                 NationalId = c.NationalId,
                 Name = c.Givenname + " " + c.Surname,
                 Address = c.Streetaddress,
@@ -97,6 +111,12 @@ namespace SearchApp.Repository
             }).ToArray();
 
             var batch = IndexBatch.Upload(searchCustomer);
+
+            indexClient.Documents.Index(batch);
+        }
+        private void UpdateDocuments(ISearchIndexClient indexClient, List<SearchCustomer> customers)
+        {
+            var batch = IndexBatch.Upload(customers);
 
             indexClient.Documents.Index(batch);
         }

@@ -10,6 +10,7 @@ namespace SearchApp.Repository
     public interface ISearchService
     {
         void RunAndUpdateSearchEngine();
-        DocumentSearchResult<SearchCustomer> RunSearchEngine(string searchWord);
+        DocumentSearchResult<SearchCustomer> RunSearchEngine(string searchWord,int skip, string column, string orderby);
+        void UpdateCustomerSearchEngine(List<SearchCustomer> customers);
     }
 }
