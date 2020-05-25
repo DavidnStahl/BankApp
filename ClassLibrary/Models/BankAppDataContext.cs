@@ -4,6 +4,7 @@ using ClassLibrary.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 
 namespace BankApp.Models
 {
@@ -31,10 +32,12 @@ namespace BankApp.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            IConfigurationBuilder builder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
+            IConfigurationRoot configuration = builder.Build();
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=localhost; Database=BankAppData ;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             }
         }
 
