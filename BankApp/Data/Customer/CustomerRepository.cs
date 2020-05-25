@@ -67,7 +67,7 @@ namespace BankApp.Data.Customer
             var skip = (Convert.ToInt32(currentPage) * 50) - 50;
             var items = GetCustomersBySearchWord(searchWord,skip,sortcolumn,sortorder);
             var customerListViewModel = new CustomerListViewModel();
-            customerListViewModel.PagingViewModel.PageSize = 50;
+            customerListViewModel.PagingViewModel.PageSize = 50;          
             var pageCount = Convert.ToDecimal(_searchEngine.RunSearchEngine(searchWord, skip, sortcolumn, sortorder).Count.Value) / customerListViewModel.PagingViewModel.PageSize;
             customerListViewModel.PagingViewModel.MaxPages = (int)Math.Ceiling(pageCount);
             customerListViewModel.PagingViewModel.CurrentPage = currentPage;

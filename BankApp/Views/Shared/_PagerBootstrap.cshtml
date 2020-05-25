@@ -45,8 +45,9 @@
 
 
 <script>
-
-    var input = document.getElementById("searchtext");
+    
+    var input = document.getElementById("searchtext").value;
+    
 
     function updateQueryStringParameter(uri, key, value, searchWord) {
         if (searchWord === "undefined") {

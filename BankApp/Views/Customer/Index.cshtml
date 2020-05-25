@@ -39,17 +39,17 @@
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            
+            <form asp-action="NewSearch" asp-controller="Customer" method="get">
                 <div class="input-group">
 
-                    <input id="searchtext" value="@Model.SearchWord" type="text" class="form-control bg-white border-0 small" placeholder="Search here ..." aria-label="Search" aria-describedby="basic-addon2">
+                    <input id="searchtext" name="word" value="@Model.SearchWord" type="text" class="form-control bg-white border-0 small" placeholder="Search here ..." aria-label="Search" aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button id="buttonsubmit"class="btn btn-primary" onclick="window.location.href=setSorts(window.location.href, 'CustomerId', '@GetClickSortOrder("CustomerId")')">
+                        <button id="buttonsubmit" type="submit" class="btn btn-primary">
                             <i class="fas fa-search fa-sm"></i>
                         </button>
                     </div>
                 </div>
-            
+            </form>
         </div>
         <div class="card-body">
             <div class="table-responsive">

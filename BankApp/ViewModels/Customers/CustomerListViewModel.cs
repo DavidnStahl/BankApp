@@ -12,6 +12,8 @@ namespace BankApp.ViewModels.Customers
 
         public string SearchWord { get; set; }
 
+        public decimal Results { get; set; }
+
         public List<CustomerItemViewModel> Items { get; set; } = new List<CustomerItemViewModel>();
 
         public PagingViewModel PagingViewModel { get; set; } = new PagingViewModel();

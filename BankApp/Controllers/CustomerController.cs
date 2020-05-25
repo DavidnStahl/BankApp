@@ -22,12 +22,18 @@ namespace BankApp.Controllers
             _service = service;
         }
 
-        
+        [HttpGet]
+        [Authorize]
+        public IActionResult NewSearch(string word)
+        {
+            return RedirectToAction("Index", new { searchWord = word });
+        }
+
         [HttpGet]
         [Authorize]
         public IActionResult Index(string sortcolumn, string sortorder, string page, string searchWord)
         {
-            var viewModel = _service.GetListOfCustomers(sortcolumn, sortorder, page, searchWord);
+            var viewModel = _service.GetListOfCustomers(sortcolumn, sortorder, page, searchWord);           
             return View(viewModel);
         }
         [Authorize]
