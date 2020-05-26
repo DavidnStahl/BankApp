@@ -358,3 +358,4 @@ C:\Users\dns20\source\repos\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\
 C:\Users\dns20\source\repos\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.dll
 C:\Users\dns20\source\repos\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.pdb
 C:\Users\dns20\source\repos\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\obj\Debug\netcoreapp3.1\MoneyLaunderingApp.genruntimeconfig.cache
+C:\Users\dns20\source\repos\BankAppMVC2VG-master\BankApp\MoneyLaunderingApp\bin\Debug\netcoreapp3.1\appsettings.json

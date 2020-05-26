@@ -92,7 +92,7 @@ namespace MoneyLaunderingApp.Services
             account.AccountId = a;
             account.Transactions = model.Where(r => r.AccountId == a).Select(r => new LaunderingAccountModel.AccountInfo.TransactionsInfo
             {
-                over15000 = r.Amount > 1500 ? true : false,
+                over15000 = r.Amount > 15000 ? true : false,
                 TransactionId = r.TransactionId
             }).ToList();
             return account;

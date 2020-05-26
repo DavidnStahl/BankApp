@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Internal;
+using Microsoft.Extensions.Configuration;
 using MoneyLaunderingApp.Model;
 using System;
 using System.Collections.Generic;
@@ -12,9 +13,11 @@ namespace MoneyLaunderingApp.Email
     {
         public void SendEmail(string country, string content)
         {
+            IConfigurationBuilder builder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
+            IConfigurationRoot configuration = builder.Build();
             var client = new SmtpClient("smtp.mailtrap.io", 2525)
             {
-                Credentials = new System.Net.NetworkCredential("255f55584d3161", "8a6a8933c2a06f"),
+                Credentials = new System.Net.NetworkCredential(configuration["username"], configuration["password"]),
                 EnableSsl = true
             };
             client.Send("MoneyLaunderingApp@app.se", $"{country}@testbanken.se", "report", content);
